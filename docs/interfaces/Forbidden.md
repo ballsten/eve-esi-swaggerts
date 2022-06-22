@@ -21,7 +21,7 @@ Forbidden message
 
 #### Defined in
 
-[src/index.ts:33](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L33)
+[src/index.ts:33](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L33)
 
 ___
 
@@ -33,4 +33,4 @@ status code received from SSO
 
 #### Defined in
 
-[src/index.ts:36](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L36)
+[src/index.ts:36](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L36)

@@ -20,4 +20,4 @@ Unauthorized message
 
 #### Defined in
 
-[src/index.ts:71](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L71)
+[src/index.ts:71](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L71)

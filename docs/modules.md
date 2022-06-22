@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[src/index.ts:74](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L74)
+[src/index.ts:74](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L74)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:96](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L96)
+[src/index.ts:96](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L96)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[src/index.ts:75](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L75)
+[src/index.ts:75](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L75)

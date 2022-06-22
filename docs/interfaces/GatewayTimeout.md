@@ -21,7 +21,7 @@ Gateway timeout message
 
 #### Defined in
 
-[src/index.ts:44](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L44)
+[src/index.ts:44](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L44)
 
 ___
 
@@ -33,4 +33,4 @@ number of seconds the request was given
 
 #### Defined in
 
-[src/index.ts:47](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L47)
+[src/index.ts:47](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L47)

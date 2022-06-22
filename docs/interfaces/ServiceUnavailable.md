@@ -20,4 +20,4 @@ Service unavailable message
 
 #### Defined in
 
-[src/index.ts:63](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L63)
+[src/index.ts:63](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L63)

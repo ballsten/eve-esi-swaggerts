@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[src/index.ts:132](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L132)
+[src/index.ts:132](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L132)
 
 ## Properties
 
@@ -73,7 +73,7 @@
 
 #### Defined in
 
-[src/index.ts:122](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L122)
+[src/index.ts:122](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L122)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:125](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L125)
+[src/index.ts:125](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L125)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:119](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L119)
+[src/index.ts:119](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L119)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:167](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L167)
+[src/index.ts:167](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L167)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:120](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L120)
+[src/index.ts:120](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L120)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:121](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L121)
+[src/index.ts:121](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L121)
 
 ## Methods
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:213](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L213)
+[src/index.ts:213](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L213)
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:149](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L149)
+[src/index.ts:149](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L149)
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:145](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L145)
+[src/index.ts:145](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L145)
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:162](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L162)
+[src/index.ts:162](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L162)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:199](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L199)
+[src/index.ts:199](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L199)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:123](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L123)
+[src/index.ts:123](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L123)
 
 ___
 
@@ -280,7 +280,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:140](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L140)
+[src/index.ts:140](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L140)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:186](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L186)
+[src/index.ts:186](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L186)
 
 ___
 
@@ -328,7 +328,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:222](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L222)
+[src/index.ts:222](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L222)
 
 ___
 
@@ -348,7 +348,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:136](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L136)
+[src/index.ts:136](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L136)
 
 ___
 
@@ -368,4 +368,4 @@ ___
 
 #### Defined in
 
-[src/index.ts:154](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L154)
+[src/index.ts:154](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L154)

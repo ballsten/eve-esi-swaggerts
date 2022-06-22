@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/index.ts:114](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L114)
+[src/index.ts:114](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L114)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:113](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L113)
+[src/index.ts:113](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L113)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[src/index.ts:115](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L115)
+[src/index.ts:115](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L115)

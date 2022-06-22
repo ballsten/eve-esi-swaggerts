@@ -4,7 +4,7 @@
 
 **`title`** EVE Swagger Interface
 
-**`version`** 1.10.1
+**`version`** 1.11
 
 **`baseurl`** https://esi.evetech.net/latest
 
@@ -86,7 +86,7 @@ An OpenAPI for EVE Online
 
 #### Defined in
 
-[src/index.ts:132](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L132)
+[src/index.ts:132](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L132)
 
 ## Properties
 
@@ -107,7 +107,7 @@ An OpenAPI for EVE Online
 
 #### Defined in
 
-[src/index.ts:290](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L290)
+[src/index.ts:290](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L290)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:119](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L119)
+[src/index.ts:119](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L119)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 | `deleteCharactersCharacterIdMailMailId` | (`characterId`: `number`, `mailId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<`void`, [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
 | `getCharactersCharacterId` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"``  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `alliance_id?`: `number` ; `birthday`: `string` ; `bloodline_id`: `number` ; `corporation_id`: `number` ; `description?`: `string` ; `faction_id?`: `number` ; `gender`: ``"female"`` \| ``"male"`` ; `name`: `string` ; `race_id`: `number` ; `security_status?`: `number` ; `title?`: `string`  }, `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| { `error?`: `string`  }\>\> |
 | `getCharactersCharacterIdAgentsResearch` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `agent_id`: `number` ; `points_per_day`: `number` ; `remainder_points`: `number` ; `skill_type_id`: `number` ; `started_at`: `string`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
-| `getCharactersCharacterIdAssets` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `is_blueprint_copy?`: `boolean` ; `is_singleton`: `boolean` ; `item_id`: `number` ; `location_flag`: ``"Cargo"`` \| ``"DroneBay"`` \| ``"FighterBay"`` \| ``"HiSlot0"`` \| ``"HiSlot1"`` \| ``"HiSlot2"`` \| ``"HiSlot3"`` \| ``"HiSlot4"`` \| ``"HiSlot5"`` \| ``"HiSlot6"`` \| ``"HiSlot7"`` \| ``"LoSlot0"`` \| ``"LoSlot1"`` \| ``"LoSlot2"`` \| ``"LoSlot3"`` \| ``"LoSlot4"`` \| ``"LoSlot5"`` \| ``"LoSlot6"`` \| ``"LoSlot7"`` \| ``"MedSlot0"`` \| ``"MedSlot1"`` \| ``"MedSlot2"`` \| ``"MedSlot3"`` \| ``"MedSlot4"`` \| ``"MedSlot5"`` \| ``"MedSlot6"`` \| ``"MedSlot7"`` \| ``"RigSlot0"`` \| ``"RigSlot1"`` \| ``"RigSlot2"`` \| ``"SubSystemSlot0"`` \| ``"SubSystemSlot1"`` \| ``"SubSystemSlot2"`` \| ``"SubSystemSlot3"`` \| ``"AssetSafety"`` \| ``"AutoFit"`` \| ``"BoosterBay"`` \| ``"CorpseBay"`` \| ``"Deliveries"`` \| ``"FighterTube0"`` \| ``"FighterTube1"`` \| ``"FighterTube2"`` \| ``"FighterTube3"`` \| ``"FighterTube4"`` \| ``"FleetHangar"`` \| ``"FrigateEscapeBay"`` \| ``"Hangar"`` \| ``"HangarAll"`` \| ``"HiddenModifiers"`` \| ``"Implant"`` \| ``"Locked"`` \| ``"QuafeBay"`` \| ``"RigSlot3"`` \| ``"RigSlot4"`` \| ``"RigSlot5"`` \| ``"RigSlot6"`` \| ``"RigSlot7"`` \| ``"ShipHangar"`` \| ``"Skill"`` \| ``"SpecializedAmmoHold"`` \| ``"SpecializedCommandCenterHold"`` \| ``"SpecializedFuelBay"`` \| ``"SpecializedGasHold"`` \| ``"SpecializedIndustrialShipHold"`` \| ``"SpecializedLargeShipHold"`` \| ``"SpecializedMaterialBay"`` \| ``"SpecializedMediumShipHold"`` \| ``"SpecializedMineralHold"`` \| ``"SpecializedOreHold"`` \| ``"SpecializedPlanetaryCommoditiesHold"`` \| ``"SpecializedSalvageHold"`` \| ``"SpecializedShipHold"`` \| ``"SpecializedSmallShipHold"`` \| ``"SubSystemBay"`` \| ``"SubSystemSlot4"`` \| ``"SubSystemSlot5"`` \| ``"SubSystemSlot6"`` \| ``"SubSystemSlot7"`` \| ``"Unlocked"`` \| ``"Wardrobe"`` ; `location_id`: `number` ; `location_type`: ``"solar_system"`` \| ``"station"`` \| ``"item"`` \| ``"other"`` ; `quantity`: `number` ; `type_id`: `number`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md) \| { `error?`: `string`  }\>\> |
+| `getCharactersCharacterIdAssets` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `is_blueprint_copy?`: `boolean` ; `is_singleton`: `boolean` ; `item_id`: `number` ; `location_flag`: ``"Cargo"`` \| ``"DroneBay"`` \| ``"FighterBay"`` \| ``"HiSlot0"`` \| ``"HiSlot1"`` \| ``"HiSlot2"`` \| ``"HiSlot3"`` \| ``"HiSlot4"`` \| ``"HiSlot5"`` \| ``"HiSlot6"`` \| ``"HiSlot7"`` \| ``"LoSlot0"`` \| ``"LoSlot1"`` \| ``"LoSlot2"`` \| ``"LoSlot3"`` \| ``"LoSlot4"`` \| ``"LoSlot5"`` \| ``"LoSlot6"`` \| ``"LoSlot7"`` \| ``"MedSlot0"`` \| ``"MedSlot1"`` \| ``"MedSlot2"`` \| ``"MedSlot3"`` \| ``"MedSlot4"`` \| ``"MedSlot5"`` \| ``"MedSlot6"`` \| ``"MedSlot7"`` \| ``"RigSlot0"`` \| ``"RigSlot1"`` \| ``"RigSlot2"`` \| ``"SubSystemSlot0"`` \| ``"SubSystemSlot1"`` \| ``"SubSystemSlot2"`` \| ``"SubSystemSlot3"`` \| ``"AssetSafety"`` \| ``"AutoFit"`` \| ``"BoosterBay"`` \| ``"CorpseBay"`` \| ``"Deliveries"`` \| ``"FighterTube0"`` \| ``"FighterTube1"`` \| ``"FighterTube2"`` \| ``"FighterTube3"`` \| ``"FighterTube4"`` \| ``"FleetHangar"`` \| ``"FrigateEscapeBay"`` \| ``"Hangar"`` \| ``"HangarAll"`` \| ``"HiddenModifiers"`` \| ``"Implant"`` \| ``"Locked"`` \| ``"QuafeBay"`` \| ``"RigSlot3"`` \| ``"RigSlot4"`` \| ``"RigSlot5"`` \| ``"RigSlot6"`` \| ``"RigSlot7"`` \| ``"ShipHangar"`` \| ``"Skill"`` \| ``"SpecializedAmmoHold"`` \| ``"SpecializedAsteroidHold"`` \| ``"SpecializedCommandCenterHold"`` \| ``"SpecializedFuelBay"`` \| ``"SpecializedGasHold"`` \| ``"SpecializedIceHold"`` \| ``"SpecializedIndustrialShipHold"`` \| ``"SpecializedLargeShipHold"`` \| ``"SpecializedMaterialBay"`` \| ``"SpecializedMediumShipHold"`` \| ``"SpecializedMineralHold"`` \| ``"SpecializedOreHold"`` \| ``"SpecializedPlanetaryCommoditiesHold"`` \| ``"SpecializedSalvageHold"`` \| ``"SpecializedShipHold"`` \| ``"SpecializedSmallShipHold"`` \| ``"StructureDeedBay"`` \| ``"SubSystemBay"`` \| ``"SubSystemSlot4"`` \| ``"SubSystemSlot5"`` \| ``"SubSystemSlot6"`` \| ``"SubSystemSlot7"`` \| ``"Unlocked"`` \| ``"Wardrobe"`` ; `location_id`: `number` ; `location_type`: ``"solar_system"`` \| ``"station"`` \| ``"item"`` \| ``"other"`` ; `quantity`: `number` ; `type_id`: `number`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md) \| { `error?`: `string`  }\>\> |
 | `getCharactersCharacterIdAttributes` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `accrued_remap_cooldown_date?`: `string` ; `bonus_remaps?`: `number` ; `charisma`: `number` ; `intelligence`: `number` ; `last_remap_date?`: `string` ; `memory`: `number` ; `perception`: `number` ; `willpower`: `number`  }, `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
 | `getCharactersCharacterIdBlueprints` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `item_id`: `number` ; `location_flag`: ``"Cargo"`` \| ``"DroneBay"`` \| ``"FighterBay"`` \| ``"HiSlot0"`` \| ``"HiSlot1"`` \| ``"HiSlot2"`` \| ``"HiSlot3"`` \| ``"HiSlot4"`` \| ``"HiSlot5"`` \| ``"HiSlot6"`` \| ``"HiSlot7"`` \| ``"LoSlot0"`` \| ``"LoSlot1"`` \| ``"LoSlot2"`` \| ``"LoSlot3"`` \| ``"LoSlot4"`` \| ``"LoSlot5"`` \| ``"LoSlot6"`` \| ``"LoSlot7"`` \| ``"MedSlot0"`` \| ``"MedSlot1"`` \| ``"MedSlot2"`` \| ``"MedSlot3"`` \| ``"MedSlot4"`` \| ``"MedSlot5"`` \| ``"MedSlot6"`` \| ``"MedSlot7"`` \| ``"RigSlot0"`` \| ``"RigSlot1"`` \| ``"RigSlot2"`` \| ``"SubSystemSlot0"`` \| ``"SubSystemSlot1"`` \| ``"SubSystemSlot2"`` \| ``"SubSystemSlot3"`` \| ``"AssetSafety"`` \| ``"AutoFit"`` \| ``"CorpseBay"`` \| ``"Deliveries"`` \| ``"FighterTube0"`` \| ``"FighterTube1"`` \| ``"FighterTube2"`` \| ``"FighterTube3"`` \| ``"FighterTube4"`` \| ``"FleetHangar"`` \| ``"Hangar"`` \| ``"HangarAll"`` \| ``"HiddenModifiers"`` \| ``"Implant"`` \| ``"Locked"`` \| ``"QuafeBay"`` \| ``"RigSlot3"`` \| ``"RigSlot4"`` \| ``"RigSlot5"`` \| ``"RigSlot6"`` \| ``"RigSlot7"`` \| ``"ShipHangar"`` \| ``"SpecializedAmmoHold"`` \| ``"SpecializedCommandCenterHold"`` \| ``"SpecializedFuelBay"`` \| ``"SpecializedGasHold"`` \| ``"SpecializedIndustrialShipHold"`` \| ``"SpecializedLargeShipHold"`` \| ``"SpecializedMaterialBay"`` \| ``"SpecializedMediumShipHold"`` \| ``"SpecializedMineralHold"`` \| ``"SpecializedOreHold"`` \| ``"SpecializedPlanetaryCommoditiesHold"`` \| ``"SpecializedSalvageHold"`` \| ``"SpecializedShipHold"`` \| ``"SpecializedSmallShipHold"`` \| ``"SubSystemSlot4"`` \| ``"SubSystemSlot5"`` \| ``"SubSystemSlot6"`` \| ``"SubSystemSlot7"`` \| ``"Unlocked"`` \| ``"Module"`` ; `location_id`: `number` ; `material_efficiency`: `number` ; `quantity`: `number` ; `runs`: `number` ; `time_efficiency`: `number` ; `type_id`: `number`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
 | `getCharactersCharacterIdBookmarks` | (`characterId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `bookmark_id`: `number` ; `coordinates?`: { `x`: `number` ; `y`: `number` ; `z`: `number`  } ; `created`: `string` ; `creator_id`: `number` ; `folder_id?`: `number` ; `item?`: { `item_id`: `number` ; `type_id`: `number`  } ; `label`: `string` ; `location_id`: `number` ; `notes`: `string`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
@@ -202,7 +202,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:518](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L518)
+[src/index.ts:518](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L518)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:4455](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L4455)
+[src/index.ts:4458](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L4458)
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:4601](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L4601)
+[src/index.ts:4604](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L4604)
 
 ___
 
@@ -252,7 +252,7 @@ ___
 | :------ | :------ |
 | `getCorporationsCorporationId` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"``  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `alliance_id?`: `number` ; `ceo_id`: `number` ; `creator_id`: `number` ; `date_founded?`: `string` ; `description?`: `string` ; `faction_id?`: `number` ; `home_station_id?`: `number` ; `member_count`: `number` ; `name`: `string` ; `shares?`: `number` ; `tax_rate`: `number` ; `ticker`: `string` ; `url?`: `string` ; `war_eligible?`: `boolean`  }, `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| { `error?`: `string`  }\>\> |
 | `getCorporationsCorporationIdAlliancehistory` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"``  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `alliance_id?`: `number` ; `is_deleted?`: `boolean` ; `record_id`: `number` ; `start_date`: `string`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md)\>\> |
-| `getCorporationsCorporationIdAssets` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `is_blueprint_copy?`: `boolean` ; `is_singleton`: `boolean` ; `item_id`: `number` ; `location_flag`: ``"Cargo"`` \| ``"DroneBay"`` \| ``"FighterBay"`` \| ``"HiSlot0"`` \| ``"HiSlot1"`` \| ``"HiSlot2"`` \| ``"HiSlot3"`` \| ``"HiSlot4"`` \| ``"HiSlot5"`` \| ``"HiSlot6"`` \| ``"HiSlot7"`` \| ``"LoSlot0"`` \| ``"LoSlot1"`` \| ``"LoSlot2"`` \| ``"LoSlot3"`` \| ``"LoSlot4"`` \| ``"LoSlot5"`` \| ``"LoSlot6"`` \| ``"LoSlot7"`` \| ``"MedSlot0"`` \| ``"MedSlot1"`` \| ``"MedSlot2"`` \| ``"MedSlot3"`` \| ``"MedSlot4"`` \| ``"MedSlot5"`` \| ``"MedSlot6"`` \| ``"MedSlot7"`` \| ``"RigSlot0"`` \| ``"RigSlot1"`` \| ``"RigSlot2"`` \| ``"ServiceSlot0"`` \| ``"ServiceSlot1"`` \| ``"ServiceSlot2"`` \| ``"ServiceSlot3"`` \| ``"ServiceSlot4"`` \| ``"ServiceSlot5"`` \| ``"ServiceSlot6"`` \| ``"ServiceSlot7"`` \| ``"SubSystemSlot0"`` \| ``"SubSystemSlot1"`` \| ``"SubSystemSlot2"`` \| ``"SubSystemSlot3"`` \| ``"AssetSafety"`` \| ``"AutoFit"`` \| ``"BoosterBay"`` \| ``"Deliveries"`` \| ``"FighterTube0"`` \| ``"FighterTube1"`` \| ``"FighterTube2"`` \| ``"FighterTube3"`` \| ``"FighterTube4"`` \| ``"FleetHangar"`` \| ``"FrigateEscapeBay"`` \| ``"Hangar"`` \| ``"HangarAll"`` \| ``"HiddenModifiers"`` \| ``"Implant"`` \| ``"Locked"`` \| ``"QuafeBay"`` \| ``"RigSlot3"`` \| ``"RigSlot4"`` \| ``"RigSlot5"`` \| ``"RigSlot6"`` \| ``"RigSlot7"`` \| ``"ShipHangar"`` \| ``"Skill"`` \| ``"SpecializedAmmoHold"`` \| ``"SpecializedCommandCenterHold"`` \| ``"SpecializedFuelBay"`` \| ``"SpecializedGasHold"`` \| ``"SpecializedIndustrialShipHold"`` \| ``"SpecializedLargeShipHold"`` \| ``"SpecializedMaterialBay"`` \| ``"SpecializedMediumShipHold"`` \| ``"SpecializedMineralHold"`` \| ``"SpecializedOreHold"`` \| ``"SpecializedPlanetaryCommoditiesHold"`` \| ``"SpecializedSalvageHold"`` \| ``"SpecializedShipHold"`` \| ``"SpecializedSmallShipHold"`` \| ``"SubSystemBay"`` \| ``"SubSystemSlot4"`` \| ``"SubSystemSlot5"`` \| ``"SubSystemSlot6"`` \| ``"SubSystemSlot7"`` \| ``"Unlocked"`` \| ``"Wardrobe"`` \| ``"Bonus"`` \| ``"Booster"`` \| ``"Capsule"`` \| ``"CorpDeliveries"`` \| ``"CorpSAG1"`` \| ``"CorpSAG2"`` \| ``"CorpSAG3"`` \| ``"CorpSAG4"`` \| ``"CorpSAG5"`` \| ``"CorpSAG6"`` \| ``"CorpSAG7"`` \| ``"CrateLoot"`` \| ``"DustBattle"`` \| ``"DustDatabank"`` \| ``"Impounded"`` \| ``"JunkyardReprocessed"`` \| ``"JunkyardTrashed"`` \| ``"OfficeFolder"`` \| ``"Pilot"`` \| ``"PlanetSurface"`` \| ``"QuantumCoreRoom"`` \| ``"Reward"`` \| ``"SecondaryStorage"`` \| ``"ShipOffline"`` \| ``"SkillInTraining"`` \| ``"StructureActive"`` \| ``"StructureFuel"`` \| ``"StructureInactive"`` \| ``"StructureOffline"`` \| ``"Wallet"`` ; `location_id`: `number` ; `location_type`: ``"solar_system"`` \| ``"station"`` \| ``"item"`` \| ``"other"`` ; `quantity`: `number` ; `type_id`: `number`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
+| `getCorporationsCorporationIdAssets` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `is_blueprint_copy?`: `boolean` ; `is_singleton`: `boolean` ; `item_id`: `number` ; `location_flag`: ``"Cargo"`` \| ``"DroneBay"`` \| ``"FighterBay"`` \| ``"HiSlot0"`` \| ``"HiSlot1"`` \| ``"HiSlot2"`` \| ``"HiSlot3"`` \| ``"HiSlot4"`` \| ``"HiSlot5"`` \| ``"HiSlot6"`` \| ``"HiSlot7"`` \| ``"LoSlot0"`` \| ``"LoSlot1"`` \| ``"LoSlot2"`` \| ``"LoSlot3"`` \| ``"LoSlot4"`` \| ``"LoSlot5"`` \| ``"LoSlot6"`` \| ``"LoSlot7"`` \| ``"MedSlot0"`` \| ``"MedSlot1"`` \| ``"MedSlot2"`` \| ``"MedSlot3"`` \| ``"MedSlot4"`` \| ``"MedSlot5"`` \| ``"MedSlot6"`` \| ``"MedSlot7"`` \| ``"RigSlot0"`` \| ``"RigSlot1"`` \| ``"RigSlot2"`` \| ``"ServiceSlot0"`` \| ``"ServiceSlot1"`` \| ``"ServiceSlot2"`` \| ``"ServiceSlot3"`` \| ``"ServiceSlot4"`` \| ``"ServiceSlot5"`` \| ``"ServiceSlot6"`` \| ``"ServiceSlot7"`` \| ``"SubSystemSlot0"`` \| ``"SubSystemSlot1"`` \| ``"SubSystemSlot2"`` \| ``"SubSystemSlot3"`` \| ``"AssetSafety"`` \| ``"AutoFit"`` \| ``"BoosterBay"`` \| ``"Deliveries"`` \| ``"FighterTube0"`` \| ``"FighterTube1"`` \| ``"FighterTube2"`` \| ``"FighterTube3"`` \| ``"FighterTube4"`` \| ``"FleetHangar"`` \| ``"FrigateEscapeBay"`` \| ``"Hangar"`` \| ``"HangarAll"`` \| ``"HiddenModifiers"`` \| ``"Implant"`` \| ``"Locked"`` \| ``"QuafeBay"`` \| ``"RigSlot3"`` \| ``"RigSlot4"`` \| ``"RigSlot5"`` \| ``"RigSlot6"`` \| ``"RigSlot7"`` \| ``"ShipHangar"`` \| ``"Skill"`` \| ``"SpecializedAmmoHold"`` \| ``"SpecializedAsteroidHold"`` \| ``"SpecializedCommandCenterHold"`` \| ``"SpecializedFuelBay"`` \| ``"SpecializedGasHold"`` \| ``"SpecializedIceHold"`` \| ``"SpecializedIndustrialShipHold"`` \| ``"SpecializedLargeShipHold"`` \| ``"SpecializedMaterialBay"`` \| ``"SpecializedMediumShipHold"`` \| ``"SpecializedMineralHold"`` \| ``"SpecializedOreHold"`` \| ``"SpecializedPlanetaryCommoditiesHold"`` \| ``"SpecializedSalvageHold"`` \| ``"SpecializedShipHold"`` \| ``"SpecializedSmallShipHold"`` \| ``"SubSystemBay"`` \| ``"SubSystemSlot4"`` \| ``"SubSystemSlot5"`` \| ``"SubSystemSlot6"`` \| ``"SubSystemSlot7"`` \| ``"Unlocked"`` \| ``"Wardrobe"`` \| ``"Bonus"`` \| ``"Booster"`` \| ``"Capsule"`` \| ``"CorpDeliveries"`` \| ``"CorpSAG1"`` \| ``"CorpSAG2"`` \| ``"CorpSAG3"`` \| ``"CorpSAG4"`` \| ``"CorpSAG5"`` \| ``"CorpSAG6"`` \| ``"CorpSAG7"`` \| ``"CrateLoot"`` \| ``"DustBattle"`` \| ``"DustDatabank"`` \| ``"Impounded"`` \| ``"JunkyardReprocessed"`` \| ``"JunkyardTrashed"`` \| ``"OfficeFolder"`` \| ``"Pilot"`` \| ``"PlanetSurface"`` \| ``"QuantumCoreRoom"`` \| ``"Reward"`` \| ``"SecondaryStorage"`` \| ``"ShipOffline"`` \| ``"SkillInTraining"`` \| ``"StructureActive"`` \| ``"StructureFuel"`` \| ``"StructureInactive"`` \| ``"StructureOffline"`` \| ``"Wallet"`` ; `location_id`: `number` ; `location_type`: ``"solar_system"`` \| ``"station"`` \| ``"item"`` \| ``"other"`` ; `quantity`: `number` ; `type_id`: `number`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
 | `getCorporationsCorporationIdBlueprints` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `item_id`: `number` ; `location_flag`: ``"Cargo"`` \| ``"DroneBay"`` \| ``"FighterBay"`` \| ``"HiSlot0"`` \| ``"HiSlot1"`` \| ``"HiSlot2"`` \| ``"HiSlot3"`` \| ``"HiSlot4"`` \| ``"HiSlot5"`` \| ``"HiSlot6"`` \| ``"HiSlot7"`` \| ``"LoSlot0"`` \| ``"LoSlot1"`` \| ``"LoSlot2"`` \| ``"LoSlot3"`` \| ``"LoSlot4"`` \| ``"LoSlot5"`` \| ``"LoSlot6"`` \| ``"LoSlot7"`` \| ``"MedSlot0"`` \| ``"MedSlot1"`` \| ``"MedSlot2"`` \| ``"MedSlot3"`` \| ``"MedSlot4"`` \| ``"MedSlot5"`` \| ``"MedSlot6"`` \| ``"MedSlot7"`` \| ``"RigSlot0"`` \| ``"RigSlot1"`` \| ``"RigSlot2"`` \| ``"ServiceSlot0"`` \| ``"ServiceSlot1"`` \| ``"ServiceSlot2"`` \| ``"ServiceSlot3"`` \| ``"ServiceSlot4"`` \| ``"ServiceSlot5"`` \| ``"ServiceSlot6"`` \| ``"ServiceSlot7"`` \| ``"SubSystemSlot0"`` \| ``"SubSystemSlot1"`` \| ``"SubSystemSlot2"`` \| ``"SubSystemSlot3"`` \| ``"AssetSafety"`` \| ``"AutoFit"`` \| ``"BoosterBay"`` \| ``"Deliveries"`` \| ``"FighterTube0"`` \| ``"FighterTube1"`` \| ``"FighterTube2"`` \| ``"FighterTube3"`` \| ``"FighterTube4"`` \| ``"FleetHangar"`` \| ``"FrigateEscapeBay"`` \| ``"Hangar"`` \| ``"HangarAll"`` \| ``"HiddenModifiers"`` \| ``"Implant"`` \| ``"Locked"`` \| ``"QuafeBay"`` \| ``"RigSlot3"`` \| ``"RigSlot4"`` \| ``"RigSlot5"`` \| ``"RigSlot6"`` \| ``"RigSlot7"`` \| ``"ShipHangar"`` \| ``"Skill"`` \| ``"SpecializedAmmoHold"`` \| ``"SpecializedCommandCenterHold"`` \| ``"SpecializedFuelBay"`` \| ``"SpecializedGasHold"`` \| ``"SpecializedIndustrialShipHold"`` \| ``"SpecializedLargeShipHold"`` \| ``"SpecializedMaterialBay"`` \| ``"SpecializedMediumShipHold"`` \| ``"SpecializedMineralHold"`` \| ``"SpecializedOreHold"`` \| ``"SpecializedPlanetaryCommoditiesHold"`` \| ``"SpecializedSalvageHold"`` \| ``"SpecializedShipHold"`` \| ``"SpecializedSmallShipHold"`` \| ``"SubSystemBay"`` \| ``"SubSystemSlot4"`` \| ``"SubSystemSlot5"`` \| ``"SubSystemSlot6"`` \| ``"SubSystemSlot7"`` \| ``"Unlocked"`` \| ``"Wardrobe"`` \| ``"Bonus"`` \| ``"Booster"`` \| ``"Capsule"`` \| ``"CorpDeliveries"`` \| ``"CorpSAG1"`` \| ``"CorpSAG2"`` \| ``"CorpSAG3"`` \| ``"CorpSAG4"`` \| ``"CorpSAG5"`` \| ``"CorpSAG6"`` \| ``"CorpSAG7"`` \| ``"CrateLoot"`` \| ``"DustBattle"`` \| ``"DustDatabank"`` \| ``"Impounded"`` \| ``"JunkyardReprocessed"`` \| ``"JunkyardTrashed"`` \| ``"OfficeFolder"`` \| ``"Pilot"`` \| ``"PlanetSurface"`` \| ``"QuantumCoreRoom"`` \| ``"Reward"`` \| ``"SecondaryStorage"`` \| ``"ShipOffline"`` \| ``"SkillInTraining"`` \| ``"StructureActive"`` \| ``"StructureFuel"`` \| ``"StructureInactive"`` \| ``"StructureOffline"`` \| ``"Wallet"`` ; `location_id`: `number` ; `material_efficiency`: `number` ; `quantity`: `number` ; `runs`: `number` ; `time_efficiency`: `number` ; `type_id`: `number`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
 | `getCorporationsCorporationIdBookmarks` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `bookmark_id`: `number` ; `coordinates?`: { `x`: `number` ; `y`: `number` ; `z`: `number`  } ; `created`: `string` ; `creator_id`: `number` ; `folder_id?`: `number` ; `item?`: { `item_id`: `number` ; `type_id`: `number`  } ; `label`: `string` ; `location_id`: `number` ; `notes`: `string`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
 | `getCorporationsCorporationIdBookmarksFolders` | (`corporationId`: `number`, `query?`: { `datasource?`: ``"tranquility"`` ; `page?`: `number` ; `token?`: `string`  }, `params`: [`RequestParams`](../modules.md#requestparams)) => `Promise`<[`HttpResponse`](../interfaces/HttpResponse.md)<{ `creator_id?`: `number` ; `folder_id`: `number` ; `name`: `string`  }[], `void` \| [`BadRequest`](../interfaces/BadRequest.md) \| [`ErrorLimited`](../interfaces/ErrorLimited.md) \| [`Forbidden`](../interfaces/Forbidden.md) \| [`GatewayTimeout`](../interfaces/GatewayTimeout.md) \| [`InternalServerError`](../interfaces/InternalServerError.md) \| [`ServiceUnavailable`](../interfaces/ServiceUnavailable.md) \| [`Unauthorized`](../interfaces/Unauthorized.md)\>\> |
@@ -294,7 +294,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:4741](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L4741)
+[src/index.ts:4744](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L4744)
 
 ___
 
@@ -314,7 +314,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:8170](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L8170)
+[src/index.ts:8175](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L8175)
 
 ___
 
@@ -342,7 +342,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:8382](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L8382)
+[src/index.ts:8387](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L8387)
 
 ___
 
@@ -363,7 +363,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:8979](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L8979)
+[src/index.ts:8984](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L8984)
 
 ___
 
@@ -379,7 +379,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9188](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9188)
+[src/index.ts:9193](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9193)
 
 ___
 
@@ -396,7 +396,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9225](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9225)
+[src/index.ts:9230](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9230)
 
 ___
 
@@ -412,7 +412,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9303](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9303)
+[src/index.ts:9308](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9308)
 
 ___
 
@@ -428,7 +428,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9337](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9337)
+[src/index.ts:9342](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9342)
 
 ___
 
@@ -444,7 +444,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9417](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9417)
+[src/index.ts:9422](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9422)
 
 ___
 
@@ -466,7 +466,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9464](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9464)
+[src/index.ts:9469](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9469)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9737](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9737)
+[src/index.ts:9742](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9742)
 
 ___
 
@@ -501,7 +501,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9860](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9860)
+[src/index.ts:9865](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9865)
 
 ___
 
@@ -517,7 +517,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9905](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9905)
+[src/index.ts:9910](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9910)
 
 ___
 
@@ -535,7 +535,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:9964](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L9964)
+[src/index.ts:9969](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L9969)
 
 ___
 
@@ -551,7 +551,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:10065](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L10065)
+[src/index.ts:10070](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L10070)
 
 ___
 
@@ -571,7 +571,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:10093](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L10093)
+[src/index.ts:10098](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L10098)
 
 ___
 
@@ -617,7 +617,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:10277](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L10277)
+[src/index.ts:10282](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L10282)
 
 ___
 
@@ -635,7 +635,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:11581](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L11581)
+[src/index.ts:11586](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L11586)
 
 ## Methods
 
@@ -659,7 +659,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:213](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L213)
+[src/index.ts:213](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L213)
 
 ___
 
@@ -683,7 +683,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:162](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L162)
+[src/index.ts:162](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L162)
 
 ___
 
@@ -714,7 +714,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:222](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L222)
+[src/index.ts:222](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L222)
 
 ___
 
@@ -738,7 +738,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:136](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L136)
+[src/index.ts:136](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L136)
 
 ___
 
@@ -762,4 +762,4 @@ ___
 
 #### Defined in
 
-[src/index.ts:154](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L154)
+[src/index.ts:154](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L154)

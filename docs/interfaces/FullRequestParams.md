@@ -43,7 +43,7 @@ base url
 
 #### Defined in
 
-[src/index.ts:91](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L91)
+[src/index.ts:91](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L91)
 
 ___
 
@@ -55,7 +55,7 @@ request body
 
 #### Defined in
 
-[src/index.ts:89](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L89)
+[src/index.ts:89](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L89)
 
 ___
 
@@ -83,7 +83,7 @@ request cancellation token
 
 #### Defined in
 
-[src/index.ts:93](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L93)
+[src/index.ts:93](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L93)
 
 ___
 
@@ -111,7 +111,7 @@ format of response (i.e. response.json() -> format: "json")
 
 #### Defined in
 
-[src/index.ts:87](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L87)
+[src/index.ts:87](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L87)
 
 ___
 
@@ -203,7 +203,7 @@ request path
 
 #### Defined in
 
-[src/index.ts:81](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L81)
+[src/index.ts:81](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L81)
 
 ___
 
@@ -215,7 +215,7 @@ query params
 
 #### Defined in
 
-[src/index.ts:85](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L85)
+[src/index.ts:85](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L85)
 
 ___
 
@@ -275,7 +275,7 @@ set parameter to `true` for call `securityWorker` for this request
 
 #### Defined in
 
-[src/index.ts:79](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L79)
+[src/index.ts:79](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L79)
 
 ___
 
@@ -303,7 +303,7 @@ content type of request body
 
 #### Defined in
 
-[src/index.ts:83](https://github.com/ballsten/eve-esi-swaggerts/blob/4ed57e9/src/index.ts#L83)
+[src/index.ts:83](https://github.com/ballsten/eve-esi-swaggerts/blob/ec6a45d/src/index.ts#L83)
 
 ___
 
