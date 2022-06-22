@@ -281,7 +281,7 @@ export class HttpClient<SecurityDataType = unknown> {
 
 /**
  * @title EVE Swagger Interface
- * @version 1.10.1
+ * @version 1.11
  * @baseUrl https://esi.evetech.net/latest
  *
  * An OpenAPI for EVE Online
@@ -654,7 +654,7 @@ export class Api<SecurityDataType extends unknown> extends HttpClient<SecurityDa
      * @summary Get character assets
      * @request GET:/characters/{character_id}/assets/
      * @secure
-     * @response `200` `({ is_blueprint_copy?: boolean, is_singleton: boolean, item_id: number, location_flag: "AssetSafety" | "AutoFit" | "BoosterBay" | "Cargo" | "CorpseBay" | "Deliveries" | "DroneBay" | "FighterBay" | "FighterTube0" | "FighterTube1" | "FighterTube2" | "FighterTube3" | "FighterTube4" | "FleetHangar" | "FrigateEscapeBay" | "Hangar" | "HangarAll" | "HiSlot0" | "HiSlot1" | "HiSlot2" | "HiSlot3" | "HiSlot4" | "HiSlot5" | "HiSlot6" | "HiSlot7" | "HiddenModifiers" | "Implant" | "LoSlot0" | "LoSlot1" | "LoSlot2" | "LoSlot3" | "LoSlot4" | "LoSlot5" | "LoSlot6" | "LoSlot7" | "Locked" | "MedSlot0" | "MedSlot1" | "MedSlot2" | "MedSlot3" | "MedSlot4" | "MedSlot5" | "MedSlot6" | "MedSlot7" | "QuafeBay" | "RigSlot0" | "RigSlot1" | "RigSlot2" | "RigSlot3" | "RigSlot4" | "RigSlot5" | "RigSlot6" | "RigSlot7" | "ShipHangar" | "Skill" | "SpecializedAmmoHold" | "SpecializedCommandCenterHold" | "SpecializedFuelBay" | "SpecializedGasHold" | "SpecializedIndustrialShipHold" | "SpecializedLargeShipHold" | "SpecializedMaterialBay" | "SpecializedMediumShipHold" | "SpecializedMineralHold" | "SpecializedOreHold" | "SpecializedPlanetaryCommoditiesHold" | "SpecializedSalvageHold" | "SpecializedShipHold" | "SpecializedSmallShipHold" | "SubSystemBay" | "SubSystemSlot0" | "SubSystemSlot1" | "SubSystemSlot2" | "SubSystemSlot3" | "SubSystemSlot4" | "SubSystemSlot5" | "SubSystemSlot6" | "SubSystemSlot7" | "Unlocked" | "Wardrobe", location_id: number, location_type: "station" | "solar_system" | "item" | "other", quantity: number, type_id: number })[]` A flat list of the users assets
+     * @response `200` `({ is_blueprint_copy?: boolean, is_singleton: boolean, item_id: number, location_flag: "AssetSafety" | "AutoFit" | "BoosterBay" | "Cargo" | "CorpseBay" | "Deliveries" | "DroneBay" | "FighterBay" | "FighterTube0" | "FighterTube1" | "FighterTube2" | "FighterTube3" | "FighterTube4" | "FleetHangar" | "FrigateEscapeBay" | "Hangar" | "HangarAll" | "HiSlot0" | "HiSlot1" | "HiSlot2" | "HiSlot3" | "HiSlot4" | "HiSlot5" | "HiSlot6" | "HiSlot7" | "HiddenModifiers" | "Implant" | "LoSlot0" | "LoSlot1" | "LoSlot2" | "LoSlot3" | "LoSlot4" | "LoSlot5" | "LoSlot6" | "LoSlot7" | "Locked" | "MedSlot0" | "MedSlot1" | "MedSlot2" | "MedSlot3" | "MedSlot4" | "MedSlot5" | "MedSlot6" | "MedSlot7" | "QuafeBay" | "RigSlot0" | "RigSlot1" | "RigSlot2" | "RigSlot3" | "RigSlot4" | "RigSlot5" | "RigSlot6" | "RigSlot7" | "ShipHangar" | "Skill" | "SpecializedAmmoHold" | "SpecializedAsteroidHold" | "SpecializedCommandCenterHold" | "SpecializedFuelBay" | "SpecializedGasHold" | "SpecializedIceHold" | "SpecializedIndustrialShipHold" | "SpecializedLargeShipHold" | "SpecializedMaterialBay" | "SpecializedMediumShipHold" | "SpecializedMineralHold" | "SpecializedOreHold" | "SpecializedPlanetaryCommoditiesHold" | "SpecializedSalvageHold" | "SpecializedShipHold" | "SpecializedSmallShipHold" | "StructureDeedBay" | "SubSystemBay" | "SubSystemSlot0" | "SubSystemSlot1" | "SubSystemSlot2" | "SubSystemSlot3" | "SubSystemSlot4" | "SubSystemSlot5" | "SubSystemSlot6" | "SubSystemSlot7" | "Unlocked" | "Wardrobe", location_id: number, location_type: "station" | "solar_system" | "item" | "other", quantity: number, type_id: number })[]` A flat list of the users assets
      * @response `304` `void` Not modified
      * @response `400` `BadRequest` Bad request
      * @response `401` `Unauthorized` Unauthorized
@@ -732,9 +732,11 @@ export class Api<SecurityDataType extends unknown> extends HttpClient<SecurityDa
             | "ShipHangar"
             | "Skill"
             | "SpecializedAmmoHold"
+            | "SpecializedAsteroidHold"
             | "SpecializedCommandCenterHold"
             | "SpecializedFuelBay"
             | "SpecializedGasHold"
+            | "SpecializedIceHold"
             | "SpecializedIndustrialShipHold"
             | "SpecializedLargeShipHold"
             | "SpecializedMaterialBay"
@@ -745,6 +747,7 @@ export class Api<SecurityDataType extends unknown> extends HttpClient<SecurityDa
             | "SpecializedSalvageHold"
             | "SpecializedShipHold"
             | "SpecializedSmallShipHold"
+            | "StructureDeedBay"
             | "SubSystemBay"
             | "SubSystemSlot0"
             | "SubSystemSlot1"
@@ -4858,7 +4861,7 @@ export class Api<SecurityDataType extends unknown> extends HttpClient<SecurityDa
      * @summary Get corporation assets
      * @request GET:/corporations/{corporation_id}/assets/
      * @secure
-     * @response `200` `({ is_blueprint_copy?: boolean, is_singleton: boolean, item_id: number, location_flag: "AssetSafety" | "AutoFit" | "Bonus" | "Booster" | "BoosterBay" | "Capsule" | "Cargo" | "CorpDeliveries" | "CorpSAG1" | "CorpSAG2" | "CorpSAG3" | "CorpSAG4" | "CorpSAG5" | "CorpSAG6" | "CorpSAG7" | "CrateLoot" | "Deliveries" | "DroneBay" | "DustBattle" | "DustDatabank" | "FighterBay" | "FighterTube0" | "FighterTube1" | "FighterTube2" | "FighterTube3" | "FighterTube4" | "FleetHangar" | "FrigateEscapeBay" | "Hangar" | "HangarAll" | "HiSlot0" | "HiSlot1" | "HiSlot2" | "HiSlot3" | "HiSlot4" | "HiSlot5" | "HiSlot6" | "HiSlot7" | "HiddenModifiers" | "Implant" | "Impounded" | "JunkyardReprocessed" | "JunkyardTrashed" | "LoSlot0" | "LoSlot1" | "LoSlot2" | "LoSlot3" | "LoSlot4" | "LoSlot5" | "LoSlot6" | "LoSlot7" | "Locked" | "MedSlot0" | "MedSlot1" | "MedSlot2" | "MedSlot3" | "MedSlot4" | "MedSlot5" | "MedSlot6" | "MedSlot7" | "OfficeFolder" | "Pilot" | "PlanetSurface" | "QuafeBay" | "QuantumCoreRoom" | "Reward" | "RigSlot0" | "RigSlot1" | "RigSlot2" | "RigSlot3" | "RigSlot4" | "RigSlot5" | "RigSlot6" | "RigSlot7" | "SecondaryStorage" | "ServiceSlot0" | "ServiceSlot1" | "ServiceSlot2" | "ServiceSlot3" | "ServiceSlot4" | "ServiceSlot5" | "ServiceSlot6" | "ServiceSlot7" | "ShipHangar" | "ShipOffline" | "Skill" | "SkillInTraining" | "SpecializedAmmoHold" | "SpecializedCommandCenterHold" | "SpecializedFuelBay" | "SpecializedGasHold" | "SpecializedIndustrialShipHold" | "SpecializedLargeShipHold" | "SpecializedMaterialBay" | "SpecializedMediumShipHold" | "SpecializedMineralHold" | "SpecializedOreHold" | "SpecializedPlanetaryCommoditiesHold" | "SpecializedSalvageHold" | "SpecializedShipHold" | "SpecializedSmallShipHold" | "StructureActive" | "StructureFuel" | "StructureInactive" | "StructureOffline" | "SubSystemBay" | "SubSystemSlot0" | "SubSystemSlot1" | "SubSystemSlot2" | "SubSystemSlot3" | "SubSystemSlot4" | "SubSystemSlot5" | "SubSystemSlot6" | "SubSystemSlot7" | "Unlocked" | "Wallet" | "Wardrobe", location_id: number, location_type: "station" | "solar_system" | "item" | "other", quantity: number, type_id: number })[]` A list of assets
+     * @response `200` `({ is_blueprint_copy?: boolean, is_singleton: boolean, item_id: number, location_flag: "AssetSafety" | "AutoFit" | "Bonus" | "Booster" | "BoosterBay" | "Capsule" | "Cargo" | "CorpDeliveries" | "CorpSAG1" | "CorpSAG2" | "CorpSAG3" | "CorpSAG4" | "CorpSAG5" | "CorpSAG6" | "CorpSAG7" | "CrateLoot" | "Deliveries" | "DroneBay" | "DustBattle" | "DustDatabank" | "FighterBay" | "FighterTube0" | "FighterTube1" | "FighterTube2" | "FighterTube3" | "FighterTube4" | "FleetHangar" | "FrigateEscapeBay" | "Hangar" | "HangarAll" | "HiSlot0" | "HiSlot1" | "HiSlot2" | "HiSlot3" | "HiSlot4" | "HiSlot5" | "HiSlot6" | "HiSlot7" | "HiddenModifiers" | "Implant" | "Impounded" | "JunkyardReprocessed" | "JunkyardTrashed" | "LoSlot0" | "LoSlot1" | "LoSlot2" | "LoSlot3" | "LoSlot4" | "LoSlot5" | "LoSlot6" | "LoSlot7" | "Locked" | "MedSlot0" | "MedSlot1" | "MedSlot2" | "MedSlot3" | "MedSlot4" | "MedSlot5" | "MedSlot6" | "MedSlot7" | "OfficeFolder" | "Pilot" | "PlanetSurface" | "QuafeBay" | "QuantumCoreRoom" | "Reward" | "RigSlot0" | "RigSlot1" | "RigSlot2" | "RigSlot3" | "RigSlot4" | "RigSlot5" | "RigSlot6" | "RigSlot7" | "SecondaryStorage" | "ServiceSlot0" | "ServiceSlot1" | "ServiceSlot2" | "ServiceSlot3" | "ServiceSlot4" | "ServiceSlot5" | "ServiceSlot6" | "ServiceSlot7" | "ShipHangar" | "ShipOffline" | "Skill" | "SkillInTraining" | "SpecializedAmmoHold" | "SpecializedAsteroidHold" | "SpecializedCommandCenterHold" | "SpecializedFuelBay" | "SpecializedGasHold" | "SpecializedIceHold" | "SpecializedIndustrialShipHold" | "SpecializedLargeShipHold" | "SpecializedMaterialBay" | "SpecializedMediumShipHold" | "SpecializedMineralHold" | "SpecializedOreHold" | "SpecializedPlanetaryCommoditiesHold" | "SpecializedSalvageHold" | "SpecializedShipHold" | "SpecializedSmallShipHold" | "StructureActive" | "StructureFuel" | "StructureInactive" | "StructureOffline" | "SubSystemBay" | "SubSystemSlot0" | "SubSystemSlot1" | "SubSystemSlot2" | "SubSystemSlot3" | "SubSystemSlot4" | "SubSystemSlot5" | "SubSystemSlot6" | "SubSystemSlot7" | "Unlocked" | "Wallet" | "Wardrobe", location_id: number, location_type: "station" | "solar_system" | "item" | "other", quantity: number, type_id: number })[]` A list of assets
      * @response `304` `void` Not modified
      * @response `400` `BadRequest` Bad request
      * @response `401` `Unauthorized` Unauthorized
@@ -4967,9 +4970,11 @@ export class Api<SecurityDataType extends unknown> extends HttpClient<SecurityDa
             | "Skill"
             | "SkillInTraining"
             | "SpecializedAmmoHold"
+            | "SpecializedAsteroidHold"
             | "SpecializedCommandCenterHold"
             | "SpecializedFuelBay"
             | "SpecializedGasHold"
+            | "SpecializedIceHold"
             | "SpecializedIndustrialShipHold"
             | "SpecializedLargeShipHold"
             | "SpecializedMaterialBay"

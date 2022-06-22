@@ -1,6 +1,6 @@
 {
   "name": "eve-esi-swaggerts",
-  "version": "0.1.0",
+  "version": "1.11.0",
   "main": "dist/eve-esi-swaggerts.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
